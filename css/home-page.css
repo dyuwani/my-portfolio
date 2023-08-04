@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Borel&family=Cookie&family=Fasthand&family=Hind+Madurai&family=Kablammo&family=Kalam:wght@700&family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto+Condensed:wght@700&family=Rubik+Dirt&family=Ubuntu:wght@300&family=Varela+Round&family=Ysabeau+SC:wght@600&display=swap&family=Montserrat:wght@100&display=swap&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }
+  a {
+    color: rgb(158, 235, 71) ;
+    text-decoration: none;
+    touch-action: manipulation;
+    background-color: transparent;
+  }
+  a:hover {
+    color: rgb(158, 200, 71)    ;
+  }
+  a:active {
+    color: (158, 198, 71);
+  }
+  .about {
+    padding: 50px 0;
+  
+  }
+  .about-me2 {
+    font-size: 20px;
+  }
+  .about-me {
+    font-size: 20px;
+    text-align: justify;
+  }
+  a.prev, a.next {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  }
+  a.next {
+    right: 0;
+  }
+  
+  a.prev {
+    left: 0;
+  }
+  .brand-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .btn {
+    border-radius: 0%;
+    width: 11rem;
+  }  
+  .carousel {
+    padding: 20px;
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .contact {
+    padding: 50px 10px;
+  }
+  .contactForm {
+    padding:5rem;
+    background-color: rgba(250, 235, 215, 0.24);
+  }   
+  
+  .header-title{
+    display: block;
+    font-size: 94px;
+    font-weight: bold;
+    font-family: "Noe Display", Georgia, 'Times New Roman', Times, serif;
+    margin-block-start: 0px;
+    margin-block-end: 31.02px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    opacity: 0;
+    animation: floatIn 2s forwards;
+  }
+  @keyframes floatIn {
+    100% {
+        opacity: 1;
+    }
+  }
+.header-purpose {
+  color: rgb(65, 71, 76);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0;
+}
+.header-about {
+  font-size: 30px;
+  font-family: 'Ysabeau SC', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.header-summary {
+  font-size: 20px;
+}
+.nav-link{
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration:underline;
+  text-decoration-thickness: 0.2rem;
+  text-decoration-color: rgb(158, 200, 71) ;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}   
+.portfolio {
+  padding: 50px 0;
+  
+}
+.square-btn {
+  border-radius: 0%;
+  width: 11rem;
+}
+.services {
+  padding: 1 rem;
+  
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+/* Mobile responsiveness */
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+ 

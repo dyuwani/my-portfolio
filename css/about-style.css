@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Borel&family=Cookie&family=Fasthand&family=Hind+Madurai&family=Kablammo&family=Kalam:wght@700&family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto+Condensed:wght@700&family=Rubik+Dirt&family=Ubuntu:wght@300&family=Varela+Round&family=Ysabeau+SC:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar-brand {
+    font-size: 24px;
+
+  }
+  
+  section {
+    padding: 30px 0;
+  }
+  
+  section h2 {
+    font-size: 32px;
+  }
+  
+  
+  
+  
+  
+  

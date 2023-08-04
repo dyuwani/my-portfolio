@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Cookie&family=Fasthand&family=Kablammo&family=Kalam:wght@700&family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto+Condensed:wght@700&family=Rubik+Dirt&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+body{
+    background-image: url(..//images/teashop-brigitte-tohm-143640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+div{
+    /* background-color: rgb(79, 119, 19); */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(15, 15, 15);
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    color: rgba(119, 53, 6, 0.795);
+    font-family: 'Cookie', cursive;
+    font-size: 100px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+h2 {
+    font-size: 35px;
+    color: rgb(66, 48, 35);
+}
+hr {
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color:rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.75);
+}
+.established {
+    font-style: italic;
+}
+.teaItem p{
+    /* background-color: rgba(122, 122, 91, 0.295); */
+    display: inline-block;
+}
+.teaMenu{
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 20px;
+    max-width: 50%;
+    
+}
+.teaFlavor{
+    background-color: rgba(134, 86, 23, 0.349);
+    text-align: left;
+    width: 49%;
+}
+.teaPrice{
+    background-color: rgba(139, 117, 117, 0.233);
+    text-align: right;
+    width: 49%;
+}
+.teaCollection{
+    background-color: rgba(186, 216, 77, 0.253);
+    text-align: left;
+    width: 49%;
+}
+.collectionPrice{
+    background-color: rgba(102, 126, 102, 0.199);
+    text-align: right;
+    width: 49%;
+}
+a{
+    text-decoration: none;
+    font-size: small;
+}
+a:link {
+  color: rgb(26, 25, 24);  
+}
+a:visited {
+    color: rgb(36, 20, 9);
+}
+a:hover{
+    color: rgb(235, 156, 101);
+}
+a:active {
+    color: chocolate;
+}
