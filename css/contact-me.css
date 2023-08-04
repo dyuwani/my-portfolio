@@ -3,15 +3,18 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.navbar-brand {
-        display: flex;
-        align-items: center;
-}
 .brand-picture {
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 10px;
+}
+footer {
+        text-align: right;
+      }
+.navbar-brand {
+        display: flex;
+        align-items: center;
 }
 .nav-link{
         text-transform: uppercase;
@@ -21,5 +24,17 @@ body {
         text-decoration:underline;
         text-decoration-thickness: 0.2rem;
         text-decoration-color: rgb(158, 200, 71) ;
-      
-      }
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
