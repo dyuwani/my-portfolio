@@ -5,7 +5,9 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+footer {
+  text-align: right;
+}
   header {
     position: relative;
   }
@@ -15,7 +17,6 @@ body {
     font-size: 24px;
 
   }
-  
   section {
     padding: 30px 0;
   }
@@ -32,7 +33,19 @@ body {
     text-decoration-thickness: 0.2rem;
     text-decoration-color: rgb(158, 200, 71) ;
   }
-  
+  .social-icons {
+      margin-top: 10px;
+  }
+
+  .social-icons a {
+      display: inline-block;
+      margin-right: 20px;
+  }
+
+  .social-icons img {
+      width: 40px;
+      height: 40px;
+  }
   
   
   

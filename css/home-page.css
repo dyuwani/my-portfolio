@@ -70,7 +70,10 @@ body {
   .contactForm {
     padding:5rem;
     background-color: rgba(250, 235, 215, 0.24);
-  }   
+  }  
+  footer {
+    text-align: right;
+  }
   .header-about {
     font-size: 30px;
     font-family: 'Ysabeau SC', sans-serif;
@@ -153,4 +156,17 @@ body {
     font-size: 18px;
   }
 }
- 
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
