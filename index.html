@@ -81,67 +81,76 @@
   <!-- End of About Section  -->
 
   <!-- Start of Projects Section  -->
-<section id="portfolio" class="services-container">
-  <h2 class="services text-center">
-    A selection of IT & Infrastructure projects I've managed using Agile, Waterfall, and Hybrid SDLC approaches.
-  </h2>
 
-  <div class="carousel">
-    <div class="slides">
-      <div class="project-slide">
-        <h3>Archer GRC SaaS Migration</h3>
-        <p><strong>Duration:</strong> June 2025 – Present</p>
-        <p><strong>Methodology:</strong> Agile (Scrum) + SDLC</p>
-        <p>Led migration from on-prem Archer GRC to SaaS to improve scalability and performance.</p>
-      </div>
-
-      <div class="project-slide">
-        <h3>Post-Implementation Archer GRC Remediation</h3>
-        <p><strong>Duration:</strong> July 2024 – May 2025</p>
-        <p><strong>Methodology:</strong> Agile (Kanban) + SDLC</p>
-        <p>Stabilized and optimized post-implementation environment.</p>
-      </div>
-
-      <div class="project-slide">
-        <h3>Network Cabling & APN Installation</h3>
-        <p><strong>Duration:</strong> April 2025 – May 2025</p>
-        <p><strong>Methodology:</strong> Waterfall</p>
-        <p>Delivered structured cabling, network extension, and APN setup between facilities.</p>
-      </div>
-    </div>
-
-    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-    <a class="next" onclick="changeSlide(1)">&#10095;</a>
-  </div>
+  <section id="portfolio" class="portfolio-container">
+  <h2 class="text-center">Project Portfolio</h2>
+  <table class="portfolio-table">
+    <thead>
+      <tr>
+        <th>Project Name</th>
+        <th>Duration</th>
+        <th>Overview</th>
+        <th>Role</th>
+        <th>Methodology</th>
+        <th>Technologies</th>
+        <th>Industry</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Archer GRC SaaS Migration</td>
+        <td>June 2025 – Present</td>
+        <td>Migration from on-prem Archer GRC to SaaS for performance and scalability improvements.</td>
+        <td>Project Manager</td>
+        <td>Agile (Scrum) + SDLC</td>
+        <td>RSA Archer, MS Excel, Visio, PowerPoint</td>
+        <td>Banking / IT Solutions</td>
+      </tr>
+      <tr>
+        <td>Post-Implementation Archer GRC Remediation</td>
+        <td>July 2024 – May 2025</td>
+        <td>Stabilized and optimized post-implementation GRC platform.</td>
+        <td>Project Manager / Consultant</td>
+        <td>Agile (Kanban) + SDLC</td>
+        <td>Custom GRC, JIRA, MS Project</td>
+        <td>Banking / IT Solutions</td>
+      </tr>
+      <tr>
+        <td>Network Cabling & APN Installation</td>
+        <td>April 2025 – May 2025</td>
+        <td>Structured cabling and APN setup between facilities.</td>
+        <td>Project Manager</td>
+        <td>Waterfall</td>
+        <td>Cisco, Fiber, Copper, Patch Panels</td>
+        <td>Healthcare / IT Infrastructure</td>
+      </tr>
+      <tr>
+        <td>3Peta Storage Upgrade</td>
+        <td>April 2025 – May 2025</td>
+        <td>Upgraded storage infrastructure to 3PB capacity.</td>
+        <td>Infrastructure Project Lead</td>
+        <td>Waterfall</td>
+        <td>Dell EMC, NetApp, SAN/NAS</td>
+        <td>Media & Entertainment / IT</td>
+      </tr>
+      <tr>
+        <td>Implementation of IaaS, FWaaS, and BaaS</td>
+        <td>Jan 2025 – April 2025</td>
+        <td>Cloud infrastructure upgrade with security & backup solutions.</td>
+        <td>Project Manager</td>
+        <td>Agile + Waterfall Hybrid</td>
+        <td>Azure, AWS, Fortinet, Veeam</td>
+        <td>Financial Services / IT Infrastructure</td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
-<script>
-let currentSlide = 0;
-
-function changeSlide(direction) {
-  const slides = document.querySelector('.slides');
-  const totalSlides = document.querySelectorAll('.project-slide').length;
-
-  currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
-  slides.style.transform = `translateX(-${currentSlide * 100}%)`;
-}
-</script>
 
 
 
-      <!-- Add more project slides here -->
 
-    </div>
-
-    <!-- Navigation Arrows -->
-    <div>
-      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-      <a class="next" onclick="changeSlide(1)">&#10095;</a>
-    </div>      
-  </div>
-</section>
-
-  <!-- End of Services Section  -->
+  <!-- End of Projects Section  -->
 
 <!-- Start of Contact Me Section -->
   <section id="contactForm" class="contact">
