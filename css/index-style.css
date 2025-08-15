@@ -26,41 +26,45 @@ body {
       font-size: 48px;
       margin-bottom: 20px;
     }
-.carousel {
-  position: relative;
-  max-width: 900px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.slides {
+.portfolio-container {
+  background-color: #fff8b3; /* Yellow background for section */
+  padding: 30px;
   display: flex;
-  width: 100%;
-  transition: transform 0.5s ease-in-out;
+  flex-direction: column;
+  align-items: center;
 }
 
-.project-slide {
-  flex: 0 0 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  background: #f9f9f9;
-  border-radius: 10px;
+.portfolio-table {
+  width: 80%; /* smaller table width */
+  border-collapse: collapse;
+  background-color: white; /* Table stays white */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  padding: 10px;
-  background: rgba(255,255,255,0.7);
-  font-size: 20px;
-  border-radius: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
+.portfolio-table th, 
+.portfolio-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 14px;
+  text-align: left;
 }
 
-.prev { left: 10px; }
-.next { right: 10px; }
+.portfolio-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.portfolio-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.portfolio-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.text-center {
+  text-align: center;
+}
+
 
 
