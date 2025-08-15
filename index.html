@@ -83,7 +83,7 @@
   <!-- Start of Services Section  -->
 <section id="portfolio" class="services-container">
   <h2 class="services text-center">
-    A selection of IT & Infrastructure projects I've managed, delivered using Agile, Waterfall, and hybrid SDLC approaches.
+    A selection of IT & Infrastructure projects I've managed using Agile, Waterfall, and Hybrid SDLC approaches.
   </h2>
 
   <div class="carousel">
@@ -92,14 +92,19 @@
         <h3>Archer GRC SaaS Migration</h3>
         <p><strong>Duration:</strong> June 2025 – Present</p>
         <p><strong>Methodology:</strong> Agile (Scrum) + SDLC</p>
-        <p><strong>Overview:</strong> Led migration from on-prem Archer GRC to SaaS to improve scalability and performance.</p>
+        <p>Led migration from on-prem Archer GRC to SaaS to improve scalability and performance.</p>
       </div>
-
       <div class="project-slide">
         <h3>Post-Implementation Archer GRC Remediation</h3>
         <p><strong>Duration:</strong> July 2024 – May 2025</p>
         <p><strong>Methodology:</strong> Agile (Kanban) + SDLC</p>
-        <p><strong>Overview:</strong> Stabilized and optimized post-implementation environment.</p>
+        <p>Stabilized and optimized post-implementation environment.</p>
+      </div>
+      <div class="project-slide">
+        <h3>Network Cabling & APN Installation</h3>
+        <p><strong>Duration:</strong> April 2025 – May 2025</p>
+        <p><strong>Methodology:</strong> Waterfall</p>
+        <p>Delivered structured cabling, network extension, and APN setup between facilities.</p>
       </div>
     </div>
 
@@ -107,6 +112,19 @@
     <a class="next" onclick="changeSlide(1)">&#10095;</a>
   </div>
 </section>
+
+<script>
+let currentSlide = 0;
+
+function changeSlide(direction) {
+  const slides = document.querySelector('.slides');
+  const totalSlides = document.querySelectorAll('.project-slide').length;
+
+  currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+  slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+</script>
+
 
       <!-- Add more project slides here -->
 
