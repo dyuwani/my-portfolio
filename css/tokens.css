@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Design tokens — dark, glass-accented "modern SaaS" system.
+   Single source of truth for color, type, spacing, radius, shadow.
+   ========================================================================== */
+
+:root {
+  /* --- Surface / background --- */
+  --bg-900: #06070b;
+  --bg-800: #0b0d14;
+  --bg-700: #12141d;
+  --bg-raised: #171a26;
+
+  --surface: rgba(255, 255, 255, 0.045);
+  --surface-hover: rgba(255, 255, 255, 0.07);
+  --surface-border: rgba(255, 255, 255, 0.09);
+  --surface-border-strong: rgba(255, 255, 255, 0.16);
+
+  /* --- Text --- */
+  --text-100: #f5f6fb;
+  --text-300: #c3c7d6;
+  --text-500: #8b90a3;
+  --text-700: #5b6076;
+
+  /* --- Accent --- */
+  --accent-start: #6d7bff;
+  --accent-end: #22d3ee;
+  --accent-solid: #7c8cff;
+  --accent-soft: rgba(109, 123, 255, 0.14);
+  --accent-border: rgba(109, 123, 255, 0.35);
+  --gradient-accent: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+  --gradient-text: linear-gradient(135deg, #8f9bff, #4fe0ea);
+
+  --success: #34d399;
+  --warning: #fbbf24;
+
+  /* --- Radius --- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* --- Spacing scale --- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+  --space-10: 4rem;
+  --space-12: 5rem;
+  --space-16: 7rem;
+
+  --section-padding-y: clamp(3.5rem, 8vw, 7rem);
+  --content-max: 1160px;
+
+  /* --- Shadow / glow --- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.45);
+  --shadow-glow: 0 0 0 1px var(--accent-border), 0 12px 32px rgba(109, 123, 255, 0.18);
+
+  /* --- Typography --- */
+  --font-heading: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+
+  --fs-hero: clamp(2.4rem, 5.2vw, 4.2rem);
+  --fs-h2: clamp(1.7rem, 3.2vw, 2.5rem);
+  --fs-h3: clamp(1.15rem, 1.6vw, 1.35rem);
+  --fs-lead: clamp(1.05rem, 1.6vw, 1.2rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-eyebrow: 0.8rem;
+
+  --lh-tight: 1.15;
+  --lh-normal: 1.6;
+
+  /* --- Motion --- */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.18s var(--ease);
+  --transition-base: 0.3s var(--ease);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0s;
+    --transition-base: 0s;
+  }
+}

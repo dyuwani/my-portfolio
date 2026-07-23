@@ -1,58 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Johoney Bernardino - Project Manager</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/contact-me.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Johoney Bernardino</title>
+  <meta name="description" content="Schedule a call with Johoney Bernardino, Senior Technical Project Manager.">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/contact-me.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
 </head>
 
 <body>
-
-<!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container">
-                <button class="navbar-toggler" type="button"    data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-link-home" href="../index.html">Go Back</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-link-portforlio" href="../index.html#portfolio">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                </ul>
-            </div>
-            </div>
-        </nav>
-<!--End of Navigation Bar -->
-
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/johoneybernardino/introductory-call" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
-
-<!-- Footer -->
-<footer class="bg-light text-black text-center py-2">
-    <div class="social-icons">
-        <a href="https://www.facebook.com/forevermasquerade" target="_blank" rel="noopener noreferrer">
-            <img src="../images/icons8-facebook-50.png" alt="Facebook">
-        </a>
-        <span class="container text-center">
-          &copy; 2025 Johoney Bernardino. All rights reserved.
-        </span >
-        <a href="mailto:bernardinojohoney.o@gmail.com">
-            <img src="../images/icons8-email-50.png" alt="Email">
-        </a>
+  <nav class="site-nav" aria-label="Primary">
+    <div class="container site-nav__row">
+      <a class="site-nav__brand" href="../index.html#hero">
+        <img src="../images/android-chrome-192x192.png" alt="" width="34" height="34">
+        Johoney Bernardino
+      </a>
+      <div class="site-nav__links">
+        <a class="site-nav__link" href="../index.html">Home</a>
+        <a class="site-nav__link" href="../index.html#projects">Projects</a>
+      </div>
     </div>
-</footer>
-<!-- End of Footer -->
+  </nav>
+
+  <main>
+    <section class="contact-page container">
+      <div class="contact-page__head">
+        <p class="eyebrow">Get in Touch</p>
+        <h1>Schedule a Call</h1>
+        <p class="lead" style="margin-inline:auto;">Pick a time that works for you and I'll follow up with the details.</p>
+      </div>
+
+      <div class="calendly-wrap glass">
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/johoneybernardino/introductory-call?background_color=0b0d14&text_color=f5f6fb&primary_color=6d7bff" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__row">
+      <small>&copy; 2026 Johoney Bernardino. All rights reserved.</small>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/forevermasquerade" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <img src="../images/icons8-facebook-50.png" alt="" width="18" height="18">
+        </a>
+        <a href="mailto:bernardinojohoney.o@gmail.com" aria-label="Email">
+          <img src="../images/icons8-email-50.png" alt="" width="18" height="18">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

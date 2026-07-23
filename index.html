@@ -3,284 +3,235 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Johoney Bernardino</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/home-page.css">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+  <title>Johoney Bernardino — Senior Technical Project Manager</title>
+  <meta name="description" content="Senior Technical Project Manager specializing in payment technology, enterprise SaaS delivery, and AI-driven project management.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- Start of Navigation Bar -->
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Primary">
+    <div class="container site-nav__row">
+      <a class="site-nav__brand" href="index.html#hero">
+        <img src="images/android-chrome-192x192.png" alt="" width="34" height="34">
+        Johoney Bernardino
+      </a>
 
-  <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top px-5">
-        <div>
-            <a class="navbar-brand" href="html/about.html"><img src= "images/android-chrome-192x192.png" alt="Small Picture" class="brand-picture">
-            Johoney Bernardino
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-link-services" href="#services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-link-portforlio" href="#portfolio">Projects</a>
-                </li>
-                <li class="nav-item">
-                        <a class="btn btn-secondary square-btn" href="html/contact-me.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="site-nav-links" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="site-nav__links" id="site-nav-links">
+        <a class="site-nav__link" href="#about">About</a>
+        <a class="site-nav__link" href="#experience">Experience</a>
+        <a class="site-nav__link" href="#projects">Projects</a>
+        <a class="site-nav__link" href="#ai">AI Workflow</a>
+        <a class="btn btn-primary" href="html/contact-me.html">Contact</a>
+      </div>
+    </div>
   </nav>
 
-  <!-- End of Navigation Bar -->
+  <main id="main">
 
-  <!-- Start of Header -->
-
-  <header class="header-purpose bg-white text-left py-5">
-    <div class="container">
-        <p class="header-about">
-            <a class= "header-about" href=#about>
-                Hello, My name is Joey
-            </a>
+    <!-- Hero -->
+    <header class="hero" id="hero">
+      <div class="container">
+        <p class="eyebrow">Johoney Bernardino</p>
+        <h1>Senior Technical Project Manager</h1>
+        <p class="hero__lead" style="color:var(--text-100); font-size:var(--fs-lead); font-weight:500; margin-bottom:var(--space-5);">
+          Technical Delivery • Payment Solutions • Enterprise SaaS • AI-Driven Project Management
         </p>
-        <h1 class="header-title">I Manage Projects That Make an Impact.</h1>
-        <p class="header-summary">
-          I bring clarity, structure, and collaboration to every initiative — whether it’s migrating systems to the cloud, upgrading networks, or implementing enterprise software. 
-          My goal is to deliver solutions that work seamlessly and empower your business to grow.
+        <p class="hero__lead">
+          I lead end-to-end technical delivery for enterprise and fintech organizations — from payment terminal
+          certifications and gateway integrations to large-scale SaaS modernization programs. I bridge engineering,
+          compliance, and executive stakeholders to ship complex, regulated systems on time, and use AI-assisted
+          workflows to move faster without sacrificing rigor.
         </p>
-    </div>
-  </header>
-
-  <!-- End of Header -->
-
-  <!-- Start of About Section -->
-
-  <section id="about" class="about py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-              <img class="rounded-circle img-fluid" src="images/my-picture2.jpg" alt="round-picture">
+        <div class="hero__actions">
+          <a class="btn btn-primary" href="#experience">View Experience</a>
+          <a class="btn btn-ghost" href="html/contact-me.html">Get in Touch</a>
         </div>
-        <div class="col-md-5">
-            <h2 class="pt-5">About Me</h2>
-                <p class="about-me mb-5">
-                  I’m Johoney Bernardino, an IT Project Manager with nearly 10 years of experience delivering technology, infrastructure, and software projects across banking, media, telecommunications, and healthcare. Since 2015, I’ve led initiatives from cloud migrations and cybersecurity upgrades to enterprise software rollouts.
-                </p>
-                <p class="about-me mb-5">
-                  Skilled in Agile and SDLC, I bridge technical teams and business stakeholders to deliver on scope, timeline, and quality. My background spans knowledge management, IT service delivery, and security operations.
-                </p>
-                <p class="about-me mb-5">
-                  I’m also pursuing my Juris Doctor degree to deepen my expertise in governance, compliance, and legal frameworks, ensuring projects are not only successful but also compliant.
-                </p>
+      </div>
+    </header>
 
-
+    <!-- About -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container about">
+        <div class="about__photo-wrap glass">
+          <img src="images/my-picture2.jpg" alt="Portrait of Johoney Bernardino" width="320" height="320">
         </div>
-    </div>
-  </div>
-  </section>
-  <!-- End of About Section  -->
-
-  <!-- Start of Projects Section  -->
-  <!-- Slides Start -->
-  <section class="portfolio-carousel">
-  <h2>Project Portfolio</h2>
-
-  <!-- Slides Start -->
-  <div class="carousel-slide active">
-    <div class="carousel-title">Archer GRC SaaS Migration</div>
-    <div class="carousel-duration">Jun 2025 – Present</div>
-    <div class="carousel-overview">
-      Migrating on-prem Archer GRC to SaaS to improve scalability and performance.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Project Manager<br>
-      <strong>Methodology:</strong> Agile + SDLC<br>
-      <strong>Tech:</strong> RSA Archer, Excel, Visio<br>
-      <strong>Industry:</strong> Banking / IT Solutions
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">Post-Implementation Archer GRC Remediation</div>
-    <div class="carousel-duration">Jul 2024 – May 2025</div>
-    <div class="carousel-overview">
-      Stabilized and optimized post-implementation GRC system, improving workflows & compliance.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Project Manager / Consultant<br>
-      <strong>Methodology:</strong> Agile + SDLC<br>
-      <strong>Tech:</strong> Custom GRC, JIRA, MS Project<br>
-      <strong>Industry:</strong> Banking / IT Solutions
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">Network Cabling & APN Installation</div>
-    <div class="carousel-duration">Apr 2025 – May 2025</div>
-    <div class="carousel-overview">
-      Structured cabling and APN deployment for secure inter-building connectivity.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Project Manager<br>
-      <strong>Methodology:</strong> Waterfall<br>
-      <strong>Tech:</strong> Cisco, Fiber/Copper, Patch Panels<br>
-      <strong>Industry:</strong> Healthcare / IT Infrastructure
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">3Peta Storage Upgrade</div>
-    <div class="carousel-duration">Apr 2025 – May 2025</div>
-    <div class="carousel-overview">
-      Managed storage infrastructure upgrade to support 3PB scalable storage.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Infrastructure Project Lead<br>
-      <strong>Methodology:</strong> Waterfall<br>
-      <strong>Tech:</strong> Dell EMC, NetApp, SAN/NAS<br>
-      <strong>Industry:</strong> Media & Entertainment / IT
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">IaaS, FWaaS & BaaS Implementation</div>
-    <div class="carousel-duration">Jan 2025 – Apr 2025</div>
-    <div class="carousel-overview">
-      Cloud infrastructure upgrade with IaaS, FWaaS, and BaaS for scalability, security, and DR.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Project Manager<br>
-      <strong>Methodology:</strong> Agile + SDLC<br>
-      <strong>Tech:</strong> Azure/AWS, Fortinet, Veeam<br>
-      <strong>Industry:</strong> Financial Services / IT Infrastructure
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">Network Upgrade & HCI Implementation</div>
-    <div class="carousel-duration">Jul 2024 – Mar 2025</div>
-    <div class="carousel-overview">
-      Directed modernization and HCI rollout for high availability and scalability.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Project Manager<br>
-      <strong>Methodology:</strong> Agile + SDLC<br>
-      <strong>Tech:</strong> VMware vSAN, Dell EMC, Fortinet<br>
-      <strong>Industry:</strong> Media & Entertainment / IT
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">End-to-End IT Service Delivery – Eze Castle</div>
-    <div class="carousel-duration">Aug 2021 – Jul 2024</div>
-    <div class="carousel-overview">
-      Delivered managed IT, cloud, and cybersecurity services for financial clients.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> IT Project Manager<br>
-      <strong>Methodology:</strong> Agile + SDLC<br>
-      <strong>Tech:</strong> Microsoft 365, Azure AD, Fortinet<br>
-      <strong>Industry:</strong> Financial Services / Managed IT
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">Security Team Account Setup</div>
-    <div class="carousel-duration">2021 – 2022</div>
-    <div class="carousel-overview">
-      Built security operations team account including staffing, risk planning, and training.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Account Setup & Delivery Manager<br>
-      <strong>Methodology:</strong> Agile + SDLC<br>
-      <strong>Tech:</strong> MS Office, Security SOPs<br>
-      <strong>Industry:</strong> IT Services / Cybersecurity
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">Dispatch & FTE Resource Planning</div>
-    <div class="carousel-duration">2019 – 2020</div>
-    <div class="carousel-overview">
-      Managed dispatch-based IT support and engineer allocation across multiple regions.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Project Lead<br>
-      <strong>Methodology:</strong> Waterfall<br>
-      <strong>Tech:</strong> Excel, SharePoint, ServiceNow<br>
-      <strong>Industry:</strong> Telecom / IT Services
-    </div>
-  </div>
-
-  <div class="carousel-slide">
-    <div class="carousel-title">Microsoft 365 Migration</div>
-    <div class="carousel-duration">Jan 2018 – Dec 2018</div>
-    <div class="carousel-overview">
-      Migrated Exchange, SharePoint, and Office from on-prem to Microsoft 365.
-    </div>
-    <div class="carousel-meta">
-      <strong>Role:</strong> Project Lead<br>
-      <strong>Methodology:</strong> Waterfall<br>
-      <strong>Tech:</strong> Microsoft 365, Azure AD, PowerShell<br>
-      <strong>Industry:</strong> IT Services / BPO
-    </div>
-  </div>
-  <!-- Slides End -->
-
-  <!-- Carousel Controls -->
-  <div>
-    <button class="carousel-btn" onclick="changeSlide(-1)">&#10094; Prev</button>
-    <button class="carousel-btn" onclick="changeSlide(1)">Next &#10095;</button>
-  </div>
-  <script src="script.js"></script>
-</section>
-
-
-<!-- Start of Contact Me Section -->
-  <section id="contactForm" class="contact">
-    <div class="container">
-      <h2 class="text-center mb-4">Let's work together!</h2>
-        <p class="text-center">Just fill out your contact details and tell us what you need, then I’ll be sure to get back to you as soon as possible.</p>
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-heading">Delivery leadership built for regulated, technical products.</h2>
+          <p class="lead" style="margin-top:var(--space-5); margin-bottom:var(--space-4);">
+            I'm Johoney Bernardino, a Senior Technical Project Manager with 10+ years leading IT infrastructure,
+            SaaS transformation, and managed service delivery for financial services and global enterprise clients.
+            At Modulus Labs, I own end-to-end delivery of fintech payment products — from merchant terminal
+            certification through production go-live — directing cross-functional teams across Product,
+            Engineering, QA, Compliance, and payment partners.
+          </p>
+          <p class="lead" style="margin-bottom:var(--space-4);">
+            My background spans Agile, Waterfall, and hybrid SDLC governance, having directed portfolios exceeding
+            ₱128M in program value and 25+ concurrent transition programs. I combine disciplined project governance
+            with hands-on risk management, vendor oversight, and stakeholder communication — translating technical
+            complexity into clear decisions for executives and delivery teams alike.
+          </p>
+          <p class="lead">
+            I've also built AI-assisted workflows into how I plan, document, and report — using generative AI to
+            accelerate drafting while keeping human judgment squarely in charge of quality, compliance, and
+            accountability.
+          </p>
+          <ul class="about__pillars">
+            <li>Agile Project Management</li>
+            <li>Technical Delivery</li>
+            <li>Stakeholder Management</li>
+            <li>Risk Management</li>
+            <li>Process Improvement</li>
+            <li>AI-Assisted Workflows</li>
+            <li>Enterprise Implementations</li>
+          </ul>
         </div>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Career History</p>
+          <h2 id="experience-heading">Professional Experience</h2>
+          <p class="lead" style="margin-top:var(--space-3);">A decade of technical delivery, from payments to enterprise IT transformation.</p>
         </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+        <div class="experience-list" id="experience-list"></div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projects-heading">Featured Projects</h2>
+          <p class="lead" style="margin-top:var(--space-3);">Representative delivery work spanning payments, enterprise SaaS, and knowledge transition.</p>
         </div>
-        <a class=submit-btn href="html/message-sent.html">Send Message</a>
-      </form>
-    </div>
-  </section>
-  <!-- End of Contact Me Section -->
+        <div class="grid grid--cards-wide" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certifications" aria-labelledby="certifications-heading">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Credentials</p>
+          <h2 id="certifications-heading">Certifications</h2>
+          <p class="lead" style="margin-top:var(--space-3);">Continuously building depth in Agile delivery, project analytics, and applied AI.</p>
+        </div>
+        <div class="grid grid--cards" id="certifications-grid"></div>
+
+        <div class="education-list">
+          <h3>Education</h3>
+          <div id="education-items" class="grid" style="gap:var(--space-3);"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI-Powered Project Management -->
+    <section class="section" id="ai" aria-labelledby="ai-heading">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Applied AI</p>
+          <h2 id="ai-heading">How I Use AI as a Project Manager</h2>
+          <p class="lead" style="margin-top:var(--space-3); margin-inline:auto;">
+            AI accelerates the first draft of nearly every artifact I produce — the judgment, validation, and
+            accountability stay entirely mine.
+          </p>
+        </div>
+
+        <div class="grid grid--cards" id="ai-use-cases-grid"></div>
+
+        <div class="workflow" id="ai-workflow-steps"></div>
+
+        <p class="ai-callout"><strong>AI accelerates execution.</strong> Human judgment ensures quality.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Toolkit</p>
+          <h2 id="skills-heading">Skills</h2>
+        </div>
+        <div id="skills-list"></div>
+      </div>
+    </section>
+
+    <!-- Metrics -->
+    <section class="section" id="metrics" aria-labelledby="metrics-heading">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Impact</p>
+          <h2 id="metrics-heading">By the Numbers</h2>
+        </div>
+        <div class="metrics-grid" id="metrics-grid"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-cta glass">
+          <h2 id="contact-heading">Let's build something reliable together.</h2>
+          <p class="lead" style="margin-inline:auto;">
+            Whether it's a payment integration, an enterprise SaaS rollout, or a delivery program that needs a
+            steady hand — I'd like to hear about it.
+          </p>
+          <div class="contact-cta__actions">
+            <a class="btn btn-primary" href="html/contact-me.html">Schedule a Call</a>
+            <a class="btn btn-ghost" href="mailto:bernardinojohoney.o@gmail.com">Email Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- Footer -->
-  <footer class="bg-light text-black py-2">
-    <div class="social-icons">
-        <a href="https://www.facebook.com/forevermasquerade" target="_blank" rel="noopener noreferrer">
-            <img src="images/icons8-facebook-50.png" alt="Facebook">
+  <footer class="site-footer">
+    <div class="container site-footer__row">
+      <small>&copy; 2026 Johoney Bernardino. All rights reserved.</small>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/forevermasquerade" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <img src="images/icons8-facebook-50.png" alt="" width="18" height="18">
         </a>
-        <a href="mailto:johoneybernardino@gmail.com">
-            <img src="images/icons8-email-50.png" alt="Email">
+        <a href="mailto:bernardinojohoney.o@gmail.com" aria-label="Email">
+          <img src="images/icons8-email-50.png" alt="" width="18" height="18">
         </a>
-        <div class="container text-center">
-          &copy; 2025 Johoney Bernardino. All rights reserved.
-       </div>
+      </div>
     </div>
-</footer>
-<!-- End of Footer -->
+  </footer>
 
+  <script src="js/data/experience.js"></script>
+  <script src="js/data/projects.js"></script>
+  <script src="js/data/certifications.js"></script>
+  <script src="js/data/ai-workflows.js"></script>
+  <script src="js/data/skills.js"></script>
+  <script src="js/data/metrics.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/nav.js"></script>
 </body>
 </html>

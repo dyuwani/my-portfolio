@@ -1,37 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Borel&family=Cookie&family=Fasthand&family=Hind+Madurai&family=Kablammo&family=Kalam:wght@700&family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto+Condensed:wght@700&family=Rubik+Dirt&family=Ubuntu:wght@300&family=Varela+Round&family=Ysabeau+SC:wght@600&display=swap');
-body {
-    margin: 0px;
-    padding: 0px;
-}
-.brand-picture {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 10px;
-}
-.navbar-brand {
-        display: flex;
-        align-items: center;
-}
-.nav-link{
-        text-transform: uppercase;
-        text-decoration: none;
-      }
-.nav-link:hover {
-        text-decoration:underline;
-        text-decoration-thickness: 0.2rem;
-        text-decoration-color: rgb(158, 200, 71) ;
-}
-.social-icons {
-    margin-top: 10px;
+/* Contact page — page-specific layout only; tokens/base/components supply the system. */
+
+.contact-page {
+  padding-block: var(--section-padding-y);
 }
 
-.social-icons a {
-    display: inline-block;
-    margin-right: 20px;
+.contact-page__head {
+  max-width: 640px;
+  margin: 0 auto var(--space-8);
+  text-align: center;
 }
 
-.social-icons img {
-    width: 40px;
-    height: 40px;
+.calendly-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  border-radius: var(--radius-xl);
+  padding: var(--space-2);
+  overflow: hidden;
+}
+
+.calendly-inline-widget {
+  border-radius: calc(var(--radius-xl) - 6px);
+  overflow: hidden;
 }
